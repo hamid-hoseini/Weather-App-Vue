@@ -1,12 +1,10 @@
 <template>
-  <Suspense>
-    <div>
-      <AsyncCityView />
-    </div>
-    <template>
-      <p>loading...</p>
-    </template>
-  </Suspense>
+  <div>
+      <AsyncCityView/>
+      <template>
+        <p>loading...</p>
+      </template>
+  </div>
 </template>
 
 <script setup>

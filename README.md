@@ -40,6 +40,8 @@ npx tailwindcss init -p
 ## What I have learned in this project are:
 
   1. Using `Transition` component, a built-in components that can help work with transitions and animations in response to changing state <sub>[Read More...](https://vuejs.org/guide/built-ins/transition.html)</sub>
+  2. Using Vue Devtools <sub>[Read More...](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en)</sub>
+  3. Using OpenWeatherMap API to fetch weather data <sub>[Read More...](https://openweathermap.org/api/one-call-3)</sub>
 
 ## Dependencies
   - Tailwindcss & postcss & autoprefixer [link](https://tailwindcss.com/docs/installation/using-postcss)
