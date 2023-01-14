@@ -42,7 +42,31 @@ npx tailwindcss init -p
   1. Using `Transition` component, a built-in components that can help work with transitions and animations in response to changing state <sub>[Read More...](https://vuejs.org/guide/built-ins/transition.html)</sub>
   2. Using Vue Devtools <sub>[Read More...](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en)</sub>
   3. Using OpenWeatherMap API to fetch weather data <sub>[Read More...](https://openweathermap.org/api/one-call-3)</sub>
+  4. Using `<Suspense>` which is a built-in component for orchestrating async dependencies in a component tree. <sub>[Read More...](https://vuejs.org/guide/built-ins/suspense.html)</sub>
 
 ## Dependencies
   - Tailwindcss & postcss & autoprefixer [link](https://tailwindcss.com/docs/installation/using-postcss)
   - axios [link](https://www.npmjs.com/package/axios)
+
+
+  ## Note
+
+> Use `Suspense` to render a loading state while waiting for multiple nested async dependencies down the component tree to be resolved
+
+```vue
+<template>
+  <div>
+    <Suspense>
+      <AsyncCityView />
+      <template #fallback>
+        <p>Loading...</p>
+      </template>
+    </Suspense>
+  </div>
+</template>
+<script setup>
+import AsyncCityView from '../components/AsyncCityView.vue';
+
+
+</script>
+```
