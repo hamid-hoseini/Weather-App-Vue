@@ -47,6 +47,7 @@ npx tailwindcss init -p
 ## Dependencies
   - Tailwindcss & postcss & autoprefixer [link](https://tailwindcss.com/docs/installation/using-postcss)
   - axios [link](https://www.npmjs.com/package/axios)
+  - UID [link](https://www.npmjs.com/package/uid)
 
 
   ## Note
