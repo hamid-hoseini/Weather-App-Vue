@@ -1,5 +1,3 @@
-### In Progress...
-
 # Weather-App
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -50,7 +48,12 @@ npx tailwindcss init -p
   - UID [link](https://www.npmjs.com/package/uid)
 
 
-  ## Note
+
+## Short Demo
+
+https://user-images.githubusercontent.com/7660220/215688937-b8b29419-843f-4a88-855f-88b38c8cbdfc.mp4
+
+## Note
 
 > Use `Suspense` to render a loading state while waiting for multiple nested async dependencies down the component tree to be resolved
 
@@ -67,7 +70,9 @@ npx tailwindcss init -p
 </template>
 <script setup>
 import AsyncCityView from '../components/AsyncCityView.vue';
-
-
 </script>
 ```
+
+#### DISCLAIMER: 
+
+This code is developed for learning purposes only. Copyright Disclaimer under section 107 of the Copyright Act 1976, allowance is made for “fair use” of this code for education purposes.
